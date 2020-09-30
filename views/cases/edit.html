@@ -1,0 +1,178 @@
+<style>
+    .aux {
+        color: gainsboro !important;
+    }
+
+    .layui-upload-img {
+        width: 92px;
+        height: 92px;
+        margin: 0 10px 10px 0;
+    }
+</style>
+<div class="layui-layout layui-layout-admin" style="margin-top: 20px;">
+    <div class="layui-container">
+        <form class="layui-form" action="">
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">案例名称</label>
+                <div class="layui-col-md8">
+                    <input type="text" name="name" required=""
+                           value="{{.cases.name}}"
+                           lay-verify="required" placeholder="请输入案例名称"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*20字以内</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">案例客户</label>
+                <div class="layui-col-md8">
+                    <input type="text" name="csr_info" required=""
+                           value="{{.cases.csrInfo}}"
+                           lay-verify="required" placeholder="请输入案例客户名称"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*50字以内</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">负责人</label>
+                <div class="layui-col-md8">
+                    <select class="layui-input" name="project_leader">
+                        {{range .leaders}}
+                            {{if eq .Id $.cases.projectLeader}}
+                                <option value="{{.Id}}" selected>{{.Name}}</option>
+                            {{else}}
+                                <option value="{{.Id}}">{{.Name}}</option>
+                            {{end}}
+                        {{end}}}
+                    </select>
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">案例类型</label>
+                <div class="layui-col-md8">
+                    <select name="case_type" class="layui-input">
+                        <option value="1" {{if eq .cases.caseType 1}}selected {{end}}>农产品溯源</option>
+                        <option value="2" {{if eq .cases.caseType 2}}selected {{end}}>固定资产上链</option>
+                        <option value="3" {{if eq .cases.caseType 3}}selected {{end}}>股权交易平台</option>
+                        <option value="4" {{if eq .cases.caseType 4}}selected {{end}}>通证交易管理平台</option>
+                        <option value="5" {{if eq .cases.caseType 5}}selected {{end}}>公链研究</option>
+                    </select>
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md4">状态</label>
+                <div class="layui-col-md8">
+                    <input type="radio" name="status" value="1" title="显示" {{if eq .cases.status 1}}checked {{end}}>
+                    <input type="radio" name="status" value="9" title="删除" {{if eq .cases.status 9}}checked {{end}}>
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">内容</label>
+                <div class="layui-col-md10">
+                    <div id="edit" style="background: #fff;">{{if .cases }}{{str2html .cases.caseInfo}}{{end}}</div>
+                </div>
+            </div>
+            <input type="hidden" name="id" value="{{.cases.id}}"/>
+            <div class="layui-form-item layui-col-md12">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="save">立即提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    layui.use(['form', 'element', 'layer', 'jquery','upload'], function () {
+        var form = layui.form;
+        var upload = layui.upload;
+        var $ = layui.jquery;
+
+        var E = window.wangEditor;
+        var editor = new E('#edit');
+        editor.customConfig.uploadImgServer = '/upload/uploadimg';
+        editor.customConfig.uploadFileName = 'file';
+        editor.customConfig.pasteIgnoreImg = true;
+        editor.customConfig.uploadImgTimeout = 1000;
+        editor.customConfig.zIndex = 1;
+        editor.customConfig.uploadImgHooks = {
+            before: function (xhr, editor, files) {
+            },
+            success: function (xhr, editor, result) {
+            },
+            fail: function (xhr, editor, result) {
+            },
+            error: function (xhr, editor) {
+            },
+            timeout: function (xhr, editor) {
+            },
+            customInsert: function (insertImg, result, editor) {
+                insertImg(result.url+result.data)
+            }
+        };
+        editor.create();
+        E.fullscreen.init('#edit');
+
+        // pic = $('#imgDisplay').attr("src");
+        // if (pic.length == 0) {
+        //     $('#imgDisplay').css("display", "none");
+        // }
+        //
+        //
+        // //图片上传
+        // var uploadInst = upload.render({
+        //     elem: '#uploadImg'
+        //     , url: '/upload/uploadimg'
+        //     , before: function (obj) {
+        //         //预读本地文件示例，不支持ie8
+        //         obj.preview(function (index, file, result) {
+        //             $('#imgDisplay').css("display", "block").attr('src', result);
+        //         });
+        //     }
+        //     , done: function (res) {
+        //         //如果上传失败
+        //         if (res.errno == -1) {
+        //             return layer.msg('上传失败');
+        //         } else {
+        //             $("[name='cover']").val(res.data);
+        //             return layer.msg("上传成功");
+        //         }
+        //     }
+        //     , error: function () {
+        //         //演示失败状态，并实现重传
+        //         var demoText = $('#failText');
+        //         demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+        //         demoText.find('.demo-reload').on('click', function () {
+        //             uploadInst.upload();
+        //         });
+        //     }
+        // });
+
+        form.on('submit(save)', function (fromdata) {
+            submit(fromdata);
+            return false;
+        });
+
+        function submit(fromdata) {
+            var fdata = fromdata.field;
+            fdata.case_info = editor.txt.html();
+            $.post('/cases/save', fdata, function (out) {
+                if (out.status == 0) {
+                    layer.msg("操作成功", {icon: 1,time:500}, function () {
+                        window.history.back(-1);
+                    })
+                } else {
+                    layer.msg(out.message)
+                }
+            }, "json");
+            return false;
+        }
+        form.render();
+    });
+</script>

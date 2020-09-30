@@ -1,0 +1,67 @@
+<style>
+    .aux {
+        color: gainsboro !important;
+    }
+
+    .layui-upload-img {
+        width: 92px;
+        height: 92px;
+        margin: 0 10px 10px 0;
+    }
+</style>
+<div class="layui-layout layui-layout-admin" style="margin-top: 20px;">
+    <div class="layui-container">
+        <form class="layui-form" action="">
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">内容</label>
+                <div class="layui-col-md8">
+                    <input type="text" name="content" required=""
+                           value="{{.contract.content}}"
+                           lay-verify="required" placeholder="请输入内容"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*20字以内</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">状态</label>
+                <div class="layui-col-md8">
+                    <input type="radio" name="status" value="1" title="显示" {{if eq .contract.status 1}}checked {{end}}>
+                    <input type="radio" name="status" value="5" title="隐藏" {{if eq .contract.status 5}}checked {{end}}>
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+            </div>
+            <input type="hidden" name="id" value="{{.contract.id}}"/>
+            <div class="layui-form-item layui-col-md12">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="save">立即提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    layui.use(['form', 'element', 'layer', 'jquery', 'upload'], function () {
+        var form = layui.form;
+        var $ = layui.jquery;
+
+        form.on('submit(save)', function (fromdata) {
+            submit(fromdata);
+            return false;
+        });
+        function submit(fromdata) {
+            var fdata = fromdata.field;
+            $.post('/contract/save', fdata, function (out) {
+                if (out.status == 0) {
+                    layer.msg("操作成功", {icon: 1, time: 500}, function () {
+                        window.history.back(-1)
+                    })
+                } else {
+                    layer.msg(out.message)
+                }
+            }, "json");
+            return false;
+        }
+        form.render();
+    });
+</script>

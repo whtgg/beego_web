@@ -1,0 +1,71 @@
+2019/03/19 16:31:36.771 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:31:49.706 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m| 133.255408ms|   match|[44m GET     [0m /     r:/
+2019/03/19 16:31:49.828 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    444.557µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2019/03/19 16:31:49.835 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    324.581µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.min.css
+2019/03/19 16:31:49.885 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    497.522µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2019/03/19 16:31:50.080 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    462.538µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2019/03/19 16:31:50.160 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     899.28µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2019/03/19 16:31:50.186 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    313.561µs|   match|[44m GET     [0m /static/layui/lay/modules/table.js
+2019/03/19 16:31:50.253 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.405586ms|   match|[44m GET     [0m /home/start   r:/home/start
+2019/03/19 16:31:50.260 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    292.899µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2019/03/19 16:32:32.997 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:32:40.323 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:33:02.459 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:33:15.766 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:33:31.236 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:33:51.338 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/19 16:33:55.128 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    368.088µs| nomatch|[44m GET     [0m /api/trendcover
+2019/03/20 15:24:19.358 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/20 15:24:34.038 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.66795ms|   match|[44m GET     [0m /login   r:/login
+2019/03/20 15:24:34.147 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    263.609µs|   match|[44m GET     [0m /static/css/login.css
+2019/03/20 15:24:34.149 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.06122ms|   match|[44m GET     [0m /static/layui/css/layui.css
+2019/03/20 15:24:34.149 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.613737ms|   match|[44m GET     [0m /static/layui/layui.js
+2019/03/20 15:24:34.175 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    570.877µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2019/03/20 15:24:34.183 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.640123ms|   match|[44m GET     [0m /static/img/login-bg.jpg
+2019/03/20 15:24:34.341 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.285321ms|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2019/03/20 15:24:34.346 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.179652ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2019/03/20 15:24:34.418 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    899.895µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2019/03/20 15:24:34.429 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    343.384µs| nomatch|[44m GET     [0m /static/img/favicon.ico
+2019/03/20 15:24:37.116 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    448.979µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/icon.png
+2019/03/20 15:26:38.978 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/20 15:26:43.681 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.439518ms|   match|[44m GET     [0m /login   r:/login
+2019/03/20 15:26:43.813 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    729.589µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2019/03/20 15:26:43.841 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    297.992µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2019/03/20 15:26:43.847 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.090192ms|   match|[44m GET     [0m /static/img/login-bg.jpg
+2019/03/20 15:26:44.006 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    286.343µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2019/03/20 15:26:44.011 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    717.192µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2019/03/20 15:26:44.080 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    206.355µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2019/03/20 15:26:44.100 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    266.832µs| nomatch|[44m GET     [0m /static/img/favicon.ico
+2019/03/20 15:30:19.671 [I] [asm_amd64.s:1333]  http server Running on http://:8087
+2019/03/20 15:30:22.642 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.901464ms|   match|[44m GET     [0m /login   r:/login
+2019/03/20 15:30:29.261 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|  47.607431ms|   match|[44m GET     [0m /     r:/
+2019/03/20 15:30:29.276 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    605.934µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2019/03/20 15:30:29.281 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    363.122µs|   match|[44m GET     [0m /static/css/app.css
+2019/03/20 15:30:29.282 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    265.196µs|   match|[44m GET     [0m /static/layui/layui.js
+2019/03/20 15:30:29.282 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     332.73µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.min.css
+2019/03/20 15:30:29.285 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.641109ms|   match|[44m GET     [0m /static/img/userface.jpg
+2019/03/20 15:30:29.311 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    251.095µs|   match|[44m GET     [0m /static/js/app.js
+2019/03/20 15:30:29.319 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.493257ms|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2019/03/20 15:30:29.326 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.750151ms|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2019/03/20 15:30:29.428 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.637435ms|   match|[44m GET     [0m /static/layui/lay/modules/table.js
+2019/03/20 15:30:29.438 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    431.875µs|   match|[44m GET     [0m /static/layui/lay/modules/laytpl.js
+2019/03/20 15:30:29.445 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     656.03µs|   match|[44m GET     [0m /static/layui/lay/modules/laypage.js
+2019/03/20 15:30:29.451 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    401.903µs|   match|[44m GET     [0m /static/layui/lay/modules/util.js
+2019/03/20 15:30:29.458 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    184.215µs|   match|[44m GET     [0m /static/js/loader.js
+2019/03/20 15:30:29.465 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    544.192µs|   match|[44m GET     [0m /static/js/nprogress.js
+2019/03/20 15:30:29.482 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    301.688µs|   match|[44m GET     [0m /static/css/nprogress.css
+2019/03/20 15:30:29.484 [D] [server.go:2741]  |      127.0.0.1|[43m 404 [0m|    330.617µs| nomatch|[44m GET     [0m /favicon.ico
+2019/03/20 15:30:29.488 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    225.713µs|   match|[44m GET     [0m /static/js/tab.js
+2019/03/20 15:30:29.495 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    232.063µs|   match|[44m GET     [0m /static/js/navbar.js
+2019/03/20 15:30:29.504 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|        202µs|   match|[44m GET     [0m /static/js/message.js
+2019/03/20 15:30:29.511 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    350.987µs|   match|[44m GET     [0m /static/css/message.css
+2019/03/20 15:30:29.523 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   3.017585ms|   match|[44m GET     [0m /home/start   r:/home/start
+2019/03/20 15:30:29.529 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    731.301µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2019/03/20 15:30:29.558 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    152.438µs|   match|[44m GET     [0m /static/css/main.css
+2019/03/20 15:30:34.691 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   8.325125ms|   match|[44m GET     [0m /news/list   r:/news/list/*
+2019/03/20 15:30:35.909 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.492298ms|   match|[44m GET     [0m /news/add   r:/news/add/*
+2019/03/20 15:30:35.929 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   5.454833ms|   match|[44m GET     [0m /static/wangeditor/release/wangEditor.min.js
+2019/03/20 15:30:35.930 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   5.381652ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2019/03/20 15:30:47.117 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   2.604429ms|   match|[44m GET     [0m /banner/list   r:/banner/list/*
+2019/03/20 15:30:47.320 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   3.898328ms|   match|[44m GET     [0m /static/upload/images/2019February/15512516279792070000.jpg
+2019/03/20 15:32:55.330 [I] [asm_amd64.s:1333]  http server Running on http://:8087

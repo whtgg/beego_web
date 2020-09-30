@@ -1,0 +1,118 @@
+<style>
+    .aux {
+        color: gainsboro !important;
+    }
+
+    .layui-upload-img {
+        width: 92px;
+        height: 92px;
+        margin: 0 10px 10px 0;
+    }
+</style>
+<div class="layui-layout layui-layout-admin" style="margin-top: 20px;">
+    <div class="layui-container">
+        <form class="layui-form" action="">
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">Banner</label>
+                <div class="layui-col-md8">
+                    <button type="button" class="layui-btn" id="uploadImg">上传图片</button>
+                    <div class="layui-upload-list">
+                        <img class="layui-upload-img" id="imgDisplay" src="{{.banner.path}}">
+                        <p id="failText"></p>
+                    </div>
+                    <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+                </div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">跳转链接</label>
+                <div class="layui-col-md8">
+                    <input type="text" name="link" required=""
+                           value="{{.banner.link}}"
+                           lay-verify="required" placeholder="请输入跳转链接"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*20字以内</div>
+            </div>
+
+            <div class="layui-form-item layui-col-md12">
+                <label class="layui-form-label layui-col-md2">状态</label>
+                <div class="layui-col-md8">
+                    <input type="radio" name="status" value="1" title="显示" {{if eq .banner.status 1}}checked {{end}}>
+                    <input type="radio" name="status" value="5" title="隐藏" {{if eq .banner.status 5}}checked {{end}}>
+                </div>
+                <div class="layui-form-mid layui-word-aux layui-col-md2 aux">*必填</div>
+            </div>
+
+            <input type="hidden" name="id" value="{{.banner.id}}"/>
+            <input type="hidden" name="path" value="{{.banner.path}}"/>
+            <div class="layui-form-item layui-col-md12">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="save">立即提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    layui.use(['form', 'element', 'layer', 'jquery','upload'], function () {
+        var form = layui.form;
+        var upload = layui.upload;
+        var $ = layui.jquery;
+
+        pic = $('#imgDisplay').attr("src");
+        if (pic.length == 0) {
+            $('#imgDisplay').css("display", "none");
+        }
+
+
+        //图片上传
+        var uploadInst = upload.render({
+            elem: '#uploadImg'
+            , url: '/upload/uploadimg'
+            , before: function (obj) {
+                //预读本地文件示例，不支持ie8
+                obj.preview(function (index, file, result) {
+                    $('#imgDisplay').css("display", "block").attr('src', result);
+                });
+            }
+            , done: function (res) {
+                //如果上传失败
+                if (res.errno == -1) {
+                    return layer.msg('上传失败');
+                } else {
+                    $("[name='path']").val(res.data);
+                    return layer.msg("上传成功");
+                }
+            }
+            , error: function () {
+                //演示失败状态，并实现重传
+                var demoText = $('#failText');
+                demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+                demoText.find('.demo-reload').on('click', function () {
+                    uploadInst.upload();
+                });
+            }
+        });
+
+        form.on('submit(save)', function (fromdata) {
+            submit(fromdata);
+            return false;
+        });
+
+        function submit(fromdata) {
+            var fdata = fromdata.field;
+            $.post('/banner/save', fdata, function (out) {
+                if (out.status == 0) {
+                    layer.msg("操作成功", {icon: 1,time:500}, function () {
+                        window.history.back(-1);
+                    })
+                } else {
+                    layer.msg(out.message)
+                }
+            }, "json");
+            return false;
+        }
+        form.render();
+    });
+</script>

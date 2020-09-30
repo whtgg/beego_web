@@ -1,0 +1,743 @@
+2019/01/04 10:21:57.319 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:21:57.497 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_case` not exists
+2019/01/04 10:21:57.497 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:21:57.537 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:21:57.590 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm.go:439
+2019/01/04 10:21:57.670 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:35
+2019/01/04 10:21:57.721 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:21:57.775 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:21:57.775 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:21:57.775 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:21:57.878 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:21:57.904 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:21:57.904 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:21:57.904 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_case` not exists
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm.go:439
+2019/01/04 10:31:27.369 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:35
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:31:27.370 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:31:27.379 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:31:27.379 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 10:35:43.438 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:35:43.439 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_case` not exists
+2019/01/04 10:35:43.439 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:35:43.439 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:35:43.439 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm.go:439
+2019/01/04 10:35:43.440 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:35
+2019/01/04 10:35:43.440 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:35:43.440 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:35:43.440 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:35:43.441 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:35:43.441 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:35:43.442 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:35:43.442 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:35:43.442 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 10:40:52.866 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_case` not exists
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm.go:439
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:35
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:40:52.867 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:40:52.868 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:40:52.868 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:40:52.868 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:40:52.868 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 10:41:02.880 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:41:02.880 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_case` not exists
+2019/01/04 10:41:02.880 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:41:02.880 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm.go:439
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:35
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:41:02.881 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  Handler crashed with error unknown field/column name `pl`
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:442
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:967
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/01/04 10:55:11.662 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:43
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 10:55:11.663 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 10:55:11.664 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  Handler crashed with error unknown field/column name `pl`
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:442
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:967
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:43
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 11:00:20.307 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 11:00:20.308 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 11:00:20.308 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 11:00:20.308 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 11:00:20.308 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  the request url is  /api/case
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  Handler crashed with error unknown field/column name `pl`
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:442
+2019/01/04 11:03:54.349 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:967
+2019/01/04 11:03:54.350 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/01/04 11:03:54.350 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:43
+2019/01/04 11:03:54.350 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:23
+2019/01/04 11:03:54.350 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 11:03:54.350 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 11:03:54.351 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 11:03:54.351 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 11:03:54.351 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 11:03:54.351 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 11:03:54.351 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 14:28:07.367 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  Handler crashed with error unknown model/table name `leader`
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:160
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:963
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:57
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:28:07.368 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 14:28:07.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 14:28:07.369 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 14:28:07.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 14:28:07.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 14:28:07.369 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  Handler crashed with error unknown model/table name `pp_leader`
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:160
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:963
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:57
+2019/01/04 14:29:44.802 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 14:29:44.803 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 14:31:26.092 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 14:31:26.094 [C] [asm_amd64.s:522]  Handler crashed with error unknown model/table name `Leader`
+2019/01/04 14:31:26.094 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:31:26.094 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 14:31:26.094 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db_tables.go:160
+2019/01/04 14:31:26.094 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/db.go:963
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:57
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 14:31:26.095 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:10:46.992 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  Handler crashed with error <RawSeter.QueryRows> all args must be use ptr slice
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_raw.go:415
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:67
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:10:46.993 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:10:46.994 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:10:46.994 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:13:04.822 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  Handler crashed with error <RawSeter.QueryRows> all args must be use ptr slice
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_raw.go:415
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:67
+2019/01/04 15:13:04.823 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:13:04.824 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:13:13.376 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:13:13.376 [C] [asm_amd64.s:522]  Handler crashed with error <RawSeter.QueryRows> all args must be use ptr slice
+2019/01/04 15:13:13.376 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:13:13.376 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/orm/orm_raw.go:415
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/GO/src/official/models/case.go:67
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:41
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:13:13.377 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:35:02.519 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:35:02.520 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:35:02.520 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:35:02.520 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:35:02.520 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:37:25.302 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:37:25.303 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:38:38.039 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:38:38.039 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:38:38.040 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:40:44.920 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:40:44.920 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:40:44.920 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:40:44.921 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:42:28.059 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:42:28.059 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:42:28.059 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:42:28.059 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:42:28.059 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:42:28.060 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:44:39.160 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:44:39.161 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:44:39.162 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:44:39.162 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  the request url is  /api/case_detail/
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:513
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/panic.go:82
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/signal_windows.go:204
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/GO/src/official/controllers/api/case.go:44
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:522
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:447
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/reflect/value.go:308
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/GO/src/github.com/astaxie/beego/router.go:852
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:2741
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/net/http/server.go:1847
+2019/01/04 15:46:48.807 [C] [asm_amd64.s:522]  F:/Program Files (x86)/GO/src/runtime/asm_amd64.s:1333
+2019/01/04 16:16:52.007 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :8087: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  the request url is  /cases/list
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/cases/list.html
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/template.go:75
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:282
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:233
+2019/02/15 15:21:26.022 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:213
+2019/02/15 15:21:26.023 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:864
+2019/02/15 15:21:26.023 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/15 15:21:26.023 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/15 15:21:26.023 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/18 11:39:02.839 [C] [asm_amd64.s:522]  the request url is  /cases/edit
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  Handler crashed with error unknown model/table name `leader`
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db_tables.go:160
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:963
+2019/02/18 11:39:02.840 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/18 11:39:02.841 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/case.go:68
+2019/02/18 11:39:02.841 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/case.go:73
+2019/02/18 11:39:02.841 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/18 11:39:02.842 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  the request url is  /cases/edit
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  Handler crashed with error unknown model/table name `pp_leader`
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db_tables.go:160
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:963
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/case.go:68
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/case.go:73
+2019/02/18 11:42:36.951 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/18 11:42:36.955 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/18 15:18:00.346 [C] [asm_amd64.s:522]  the request url is  /leader/edit
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/leader/edit.html
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/template.go:75
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:282
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:233
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:213
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:864
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/18 15:18:00.347 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  the request url is  /leader/edit
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/leader/edit.html
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/template.go:75
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:282
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:233
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:213
+2019/02/18 15:20:49.334 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:864
+2019/02/18 15:20:49.335 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/18 15:20:49.335 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/18 15:20:49.335 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  the request url is  /leader/edit
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/leader/edit.html
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/template.go:75
+2019/02/18 15:29:18.726 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:282
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:233
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/controller.go:213
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:864
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/18 15:29:18.727 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:07.905 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:07.906 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:09.711 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:09.711 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:09.711 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:09.711 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:09.711 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:09.712 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:10.179 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:10.180 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:10.365 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:10.365 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:10.366 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:10.736 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:10.736 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:10.736 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:10.827 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:10.827 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:10.827 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.827 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:10.827 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:10.828 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp_banner` not exists
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:29
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:31
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 14:58:25.037 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:25:09.801 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  Handler crashed with error interface conversion: interface {} is int, not string
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/iface.go:248
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:33
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:25:09.802 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  Handler crashed with error interface conversion: interface {} is int, not string
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/iface.go:248
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:33
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:27:53.122 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:27:53.123 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:30:05.585 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  Handler crashed with error interface conversion: interface {} is int, not string
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/iface.go:248
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:33
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:30:05.586 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:30:05.587 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:20.432 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:20.433 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:22.048 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:22.581 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:22.754 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:22.754 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:22.754 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:22.755 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:22.861 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:22.862 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:22.862 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:22.862 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:22.862 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:23.095 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:23.096 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:23.096 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:23.096 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:23.096 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:23.096 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: index out of range
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:44
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:37
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:33:23.241 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:33:23.242 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  Handler crashed with error interface conversion: interface {} is int, not string
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/iface.go:248
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:38
+2019/02/27 15:36:11.573 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:36:11.574 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 15:41:52.505 [C] [asm_amd64.s:522]  the request url is  /banner/table
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  Handler crashed with error interface conversion: interface {} is int, not string
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/iface.go:248
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/banner.go:35
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/banner.go:35
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 15:41:52.506 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  the request url is  /contract/table
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp__contract` not exists
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/contract.go:29
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/contract.go:34
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 16:04:09.204 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 16:04:09.205 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  the request url is  /contract/edit
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp__contract` not exists
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/contract.go:44
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/contract.go:78
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:08:09.249 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 16:08:09.250 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 16:08:09.250 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 16:08:09.253 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 16:08:09.253 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 16:08:09.253 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  the request url is  /contract/edit
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  Handler crashed with error <Ormer.QueryTable> table name: `pp__contract` not exists
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm.go:439
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/contract.go:44
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/contract.go:78
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 16:08:23.620 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 16:08:23.621 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 19:13:45.912 [C] [asm_amd64.s:522]  the request url is  /api/news_detail/2
+2019/02/27 19:13:45.912 [C] [asm_amd64.s:522]  Handler crashed with error wrong object type `**models.News` for rows scan, need *official/models.News
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:916
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/news.go:69
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/api/news.go:62
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 19:13:45.913 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 19:13:45.914 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 19:13:45.914 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 19:13:45.914 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 19:14:12.236 [C] [asm_amd64.s:522]  the request url is  /api/news_detail/2
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  Handler crashed with error wrong object type `**models.News` for rows scan, need *official/models.News
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:916
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/news.go:69
+2019/02/27 19:14:12.237 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/api/news.go:62
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 19:14:12.238 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 19:14:14.087 [C] [asm_amd64.s:522]  the request url is  /api/news_detail/2
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  Handler crashed with error wrong object type `**models.News` for rows scan, need *official/models.News
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:916
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/news.go:69
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/api/news.go:62
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 19:14:14.088 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  the request url is  /api/news_detail/2
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  Handler crashed with error wrong object type `**models.News` for rows scan, need *official/models.News
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/panic.go:513
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/db.go:916
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/models/news.go:69
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /Users/whts/go/src/official/controllers/api/news.go:62
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:522
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:447
+2019/02/27 19:14:24.169 [C] [asm_amd64.s:522]  /usr/local/go/src/reflect/value.go:308
+2019/02/27 19:14:24.170 [C] [asm_amd64.s:522]  /Users/whts/go/src/github.com/astaxie/beego/router.go:852
+2019/02/27 19:14:24.170 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:2741
+2019/02/27 19:14:24.170 [C] [asm_amd64.s:522]  /usr/local/go/src/net/http/server.go:1847
+2019/02/27 19:14:24.170 [C] [asm_amd64.s:522]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2019/03/12 17:32:23.057 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :8080: bind: address already in use
+2019/03/12 17:33:15.029 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :8080: bind: address already in use
